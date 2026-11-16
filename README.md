@@ -1,3 +1,5 @@
+i am currently in alpha, will be in beta testing soon!
+
 ## THERE IS NO TEAM, IT IS A YOLO!
 
 There will always be arguments about who deserved to advance, whether an individual performance was more impressive than the battle result, and whether a particular configuration rewards the right abilities. Those disagreements are not necessarily weaknesses in the tournament, because they can become opportunities for the Admiralty's characters to explain their reasoning and for participants to understand the competition more deeply. Elias may continue to defend familiar arrangements, Victor may search for more demanding challenges, Jonah may encourage players to cooperate, and Rowan may ultimately choose the configuration that will define the next event. Darius will still be concerned with the evidence, Rafael will still be concerned with the practical arrangements, and Nia will continue to remind the others that a tournament must make sense to the people entering it for the first time.
