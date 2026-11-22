@@ -1,4 +1,4 @@
-We are now on beta, welcome to alpha testing!
+We are now on beta, welcome to beta testing!
 
 DWBOT Beta – YOLO Pilot Tournament
 
