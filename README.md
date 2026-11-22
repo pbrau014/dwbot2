@@ -2,11 +2,11 @@ We are now on beta, welcome to alpha testing!
 
 DWBOT Beta – YOLO Pilot Tournament
 
-Welcome to the DWBOT beta! This release includes a working pilot version of the YOLO tournament, giving organizers the opportunity to install DWBOT, configure their own tournament, and run a live YOLO Pilot event.
+Welcome to the DWBOT beta! This release includes a working pilot version of the  tournament, giving organizers the opportunity to install DWBOT, configure their own tournament, and run a live Pilot event.
 
 What is DWBOT?
 
-DWBOT is a Windows-based tournament organizer for YOLO events in World of Warships. It keeps the organizer's tournament records and evidence on the organizer's computer, connects to Discord for participant interaction and event updates, and helps the organizer move submitted results through review, scoring, and publication.
+DWBOT is a Windows-based tournament organizer for events in World of Warships. It keeps the organizer's tournament records and evidence on the organizer's computer, connects to Discord for participant interaction and event updates, and helps the organizer move submitted results through review, scoring, and publication.
 
 Its purpose is to make tournament setup and administration more consistent and transparent while keeping scoring decisions under organizer review.
 
