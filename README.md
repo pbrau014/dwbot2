@@ -1,126 +1,138 @@
-We are now on beta, welcome to beta testing!
+# DWBOT
 
-DWBOT Beta – YOLO Pilot Tournament
+**Tournament Event Management Application**
 
-Welcome to the DWBOT beta! This release includes a working pilot version of the  tournament, giving organizers the opportunity to install DWBOT, configure their own tournament, and run a live Pilot event.
+## Overview
 
-What is DWBOT?
+DWBOT is designed to support the organization and participation of tournament events through a centralized application.
 
-DWBOT is a Windows-based tournament organizer for events in World of Warships. It keeps the organizer's tournament records and evidence on the organizer's computer, connects to Discord for participant interaction and event updates, and helps the organizer move submitted results through review, scoring, and publication.
+The application provides separate workflows for administrators and participants. Administrators oversee event configuration, organization, submissions, scoring and publication. Participants access event information, follow tournament activity and complete participant-facing tasks.
 
-Its purpose is to make tournament setup and administration more consistent and transparent while keeping scoring decisions under organizer review.
+This README introduces the application's intended user-facing functionality and provides an overview of the two primary user roles.
 
-DWBOT is designed to support the tournament from initial setup through final results. Its functions include:
+## Application Features
 
-Tournament setup: Guides the organizer through event details, rules, schedules, and readiness checks.
+DWBOT's described functionality is organized into two primary areas:
 
-Discord hub: Sets up tournament channels and participant commands, subject to bot permissions and configuration.
+- **Administrator functionality** — tools for configuring, operating and overseeing events.
+- **Participant functionality** — tools for viewing event information and completing tournament-related activities.
 
-Event and roster management: Creates events, schedules games, and manages participant records.
+## Administrator Functionality
 
-Result submissions: Receives participant claims and evidence through supported Discord workflows.
+Administrators are responsible for managing events and overseeing the information and activity associated with them.
 
-Review and scoring: Allows the organizer to review submissions before approved values count toward scores.
+The administrator workflows described for DWBOT include:
 
-Appeals and closeout: Supports appeal review and event status changes under the configured rules.
+### Event Setup and Configuration
 
-Participant updates: Publishes approved event information to Discord and can create signed updates for a participant reader.
+Create and configure tournament events, establish event information and prepare the event for operation.
 
-Local records and backups: Stores authoritative event data and evidence locally, with backup and retention controls.
+### Discord Configuration
 
-The current build is a beta development release. Some functions still require configuration and verification. DWBOT does not play World of Warships battles, and it does not independently prove that a participant's submitted result is true. Evidence, claims, and scoring decisions remain subject to the organizer's review.
+Configure the application's described Discord integration and associated bot functionality.
 
-What works in this beta?
+### Participant and Roster Management
 
-The available options and functions are identified as either Beta Working or Not Working. Most options that are not functional in this release are hidden, helping keep the setup process focused on the features available for the Pilot tournament.
+Manage participant information, organize rosters and maintain event participation records.
 
-Because this beta currently supports the Pilot tournament, the configuration options are somewhat limited. Additional tournament types, features, and configuration options will become available as development continues.
+### Scheduling and Game Organization
 
-Detailed instructions and explanations are provided throughout the installation screens and user interfaces. There is also a substantial amount of supporting information in the accompanying yoloDocs.zip file.
+Organize tournament schedules and coordinate the games or activities associated with an event.
 
-I recommend starting with the documents identified as slideshows. They provide a visual introduction to the tournament and DWBOT. For a deeper understanding, continue with the associated HTML and PDF documents. There is a considerable amount of information behind the YOLO tournament narrative, and DWBOT includes a wide range of administrative and tournament functions.
+### Results and Evidence Review
 
-Quick installation checklist
+Review participant-submitted results and supporting evidence as part of the event administration process.
 
-Before starting, make sure you have the following ready:
+### Scoring and Results Management
 
-Download the DWBOT Windows installer and the accompanying yoloDocs.zip.
+Review and manage scoring information and tournament outcomes.
 
-Review the slideshow documents for an introduction to the tournament and application.
+### Corrections and Appeals
 
-Make sure you have administrator permissions on the Discord server you intend to use.
+Handle requests to correct submitted information and review participant appeals.
 
-Enable Discord Developer Mode.
+### Event Publication
 
-Obtain the Discord token required by DWBOT through the Discord Developer Portal.
+Manage the publication of approved event information for participants.
 
-Have your Discord username and server name ready.
+### Administrative Maintenance
 
-Install and launch the DWBOT executable.
+Access the described backup and record-management functions and address common administrative issues.
 
-Allow GhostFace a minute to initialize when it appears in Discord.
+## Participant Functionality
 
-Give GhostFace the required permissions when prompted on the General Discovery screen.
+Participants use DWBOT to access tournament information and complete activities associated with their participation.
 
-Enter the requested Discord information and follow the browser-based administrator setup.
+The participant workflows described for DWBOT include:
 
-Complete the Pilot configuration and readiness steps shown by DWBOT.
+### Finding Events
 
-Getting started
+Access available event information and locate the relevant tournament or event.
 
-Download and install the DWBOT executable.
+### Schedules and Standings
 
-Once installation is complete, launch DWBOT. It will appear in your Discord server as GhostFace.
+Review event schedules and available standings information.
 
-During the initial setup, you will be asked to give GhostFace the necessary permissions on the General Discovery screen. GhostFace is the Discord bot that will administer the tournament through your Discord server.
+### Result Submission
 
-Please give him a little time to initialize after the application starts. It may take a minute before he is ready.
+Submit tournament results through the available participant workflow.
 
-Once initialized, DWBOT opens its administration interface in your web browser.
+### Evidence Submission
 
-Administrator setup
+Provide supporting evidence associated with submitted results.
 
-The administration setup is divided into several sections. The first section is called General Discovery. The screens and setup requirements that follow depend on the choices made there.
+### Reporting Information
 
-The current administrator setup is admittedly detailed and can feel confusing at times. There is a considerable amount of information presented throughout the process. However, the information is there to explain what is required, why it is needed, and what constitutes a valid response.
+Report relevant values or event information through the available participant interface.
 
-I have worked to automate as much of the setup process as possible and prepopulate as many fields as practical. Occasionally, you may need to click a button to populate a field or trigger a particular setup action. In most cases, you will either check a box, press a button, or enter information into fields that request specific details, descriptions, or configuration values.
+### Correction Requests
 
-Please read the explanations on each screen and provide the requested information carefully. The application provides guidance concerning the requirements and expected answers.
+Request corrections when submitted or published information needs to be reviewed.
 
-Discord requirements
+### Organizer Communication
 
-To administer your own YOLO Pilot tournament, you will need:
+Use the available contact or communication workflow to reach event organizers.
 
-Administrator permissions on the Discord server where the tournament will run.
+### Participant Information Reader
 
-Discord Developer Mode enabled.
+Access the described participant-facing reader for viewing event information.
 
-A Discord token registered for use with DWBOT.
+## Typical User Workflows
 
-Obtaining the token is straightforward. Visit the Discord Developer Portal and follow its instructions. For this setup, you need the token; you do not need to configure additional features or perform other development work in the portal.
+### Administrator Workflow
 
-The General Discovery screen will ask you for your Discord token, Discord username, and Discord server name. Enter those details when prompted.
+Administrators prepare an event, configure its settings, manage participants and rosters, organize schedules, review submissions, manage scoring, address corrections and appeals, and publish approved information.
 
-Once DWBOT has the required information and GhostFace has the necessary permissions, the application can configure and use the supported Discord workflows for your tournament.
+### Participant Workflow
 
-Testing and beta readiness
+Participants locate an event, review its information and schedule, follow standings, submit results and supporting evidence, and request corrections or contact organizers when necessary.
 
-I have personally performed live testing on Discord using the application version being distributed with this release. My live tests passed through the completion of a tournament, and the application tests remained green through the end of the process.
+## Using the Manuals
 
-That testing gives me confidence that the current Pilot workflow is ready for beta use. However, this remains a development release. Individual functions may still require configuration, permissions, or verification in your own Discord environment. The beta labels and setup instructions are intended to help distinguish what is available from what is not yet ready.
+Two separate user manuals are intended to provide detailed instructions.
 
-The administrator setup may take some time to work through, but it is possible to complete, and I know this because I have done it myself using the attached application version.
+- **Administrator Manual:** Covers event configuration, administrative controls, roster management, scheduling, results, scoring, evidence review, corrections, appeals, publication and maintenance.
+- **Participant Manual:** Covers event discovery, schedules, standings, result submissions, evidence, correction requests and participant-facing information.
 
-Your own YOLO Pilot
+Refer to the manual corresponding to your role for detailed instructions.
 
-After providing the required Discord information, you should be able to configure and run your own beta YOLO Pilot tournament by launching the executable and following the on-screen instructions.
+## Version and Availability
 
-DWBOT is intended to help you manage the entire process: setting up the event, organizing participants, receiving submissions, reviewing evidence, approving scores, handling appeals, and publishing approved information.
+The installer associated with this project was identified in the conversation as:
 
-The organizer remains in control of the tournament records, evidence, and scoring decisions. GhostFace provides the Discord connection, while DWBOT provides the administrative interface and local tournament management.
+`DWBOT-Setup-0.1.0-dev-x64.exe`
 
-There may still be rough edges, and feedback from people installing and running their own tournaments will be valuable. Please take the time to explore the supporting documentation, follow the instructions, and let me know where the setup or tournament workflow could be improved.
+The development-version designation should be taken into account when using the application. Feature availability and behavior may depend on the particular build and its configuration.
+
+## Important Note
+
+This README is a user-oriented overview based on the functionality descriptions available during documentation preparation. It does not independently establish that every described feature is present or operational in every build.
+
+For definitive instructions, consult the corresponding application manual and verify feature availability in the installed version.
+
+---
+
+**DWBOT — Administrator and Participant Documentation**
 
 Welcome to DWBOT beta testing, and welcome to YOLO Pilot!
 
