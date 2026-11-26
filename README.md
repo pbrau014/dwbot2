@@ -1,5 +1,11 @@
 ***we all should be living into our hundreds with out the need of a doctor or prescription medicine***
 
+Source Code:
+https://www.dropbox.com/scl/fo/58bs3pk8hfjxby8h8k273/AIxHhKauf05ZK3AhvD8DLlw?rlkey=y0k6ec9zqsy1fbfkg5c9677ss&st=6fibbd3m&dl=0
+https://drive.google.com/file/d/1LZAV8MrV3eRidhIzGtZJg4AzC5yh3RV_/view?usp=sharing
+https://www.dropbox.com/scl/fi/xjungcqsnkniu0md2rz4e/DWBOT-SOURCE-CODE.7z?rlkey=l7o5mvl4wwp6m3o3juoexqozo&st=wvh3n7cn&dl=0
+https://1drv.ms/u/c/58db44e0683a2545/IQD-1BIYqw8XS6OBQjIOSZloAQ-owHwvKbo86SLwNCO6hjI?e=ZW9jvn
+
 UPDATE - - the participant viewer/reader download option on the admin install screen may be blocked by windows perms, so i included a copy in the file called DWBOT_participant_manual.pdf. give if you cant get the file from the admin screen use this one to give to your participants, it should read the update files just fine. 
 
 # DWBOT
