@@ -1,3 +1,5 @@
+UPDATE - - the participant viewer/reader download option on the admin install screen may be blocked by windows perms, so i included a copy in the file called DWBOT_participant_manual.pdf. give if you cant get the file from the admin screen use this one to give to your participants, it should read the update files just fine. 
+
 # DWBOT
 
 **Tournament Event Management Application**
